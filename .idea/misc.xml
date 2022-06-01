@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/drawable/cursor.xml" value="0.1" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/drawable/editbox_sh.xml" value="0.1945" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/drawable/orng.xml" value="0.112" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_add_and_user.xml" value="0.15" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_add_purposal.xml" value="0.15" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_add_user.xml" value="0.15" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_mypannel.xml" value="0.15" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_purposal_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/activity_purposals.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Neeraj/StudioProjects/KheloIndia/app/src/main/res/layout/recycler_layout.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

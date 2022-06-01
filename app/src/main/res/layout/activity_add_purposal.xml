@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add_purposal_act">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/orange"
+        android:elevation="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Add Proposal"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Name of Applicant"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/name_of_applicant_proposal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Name od applicant"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Postal Adress"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/postal_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Jaipur, Rajasthan"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Phone no."
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/phone_propoasl"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="9876543210"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Name of Project"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/name_of_proposal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Contruction of Stadium"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Location of Project"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/location_of_project"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Jaipur, Raj."
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Area of Project"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/Size_proposal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="60M x 40M"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Land OwnerShip"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/Ownership"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Owned/Leased"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Sports Facilities"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/sports_proposal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Swiming Pools"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Estimation cost"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/cost_proposal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="80000000"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Justification"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/justification"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:hint="Justification"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Time Required to Compelete"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/date_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:inputType="date"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Application date"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/applicaationdate_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:inputType="date"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Stage"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/stage_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="User ID"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/userid_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Status"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/status_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="Application id"
+                    android:textColor="@color/orange" />
+
+                <EditText
+                    android:id="@+id/appid_propsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/editbox_sh"
+                    android:paddingHorizontal="10dp"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add_propsal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="50dp"
+                android:text="Add" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

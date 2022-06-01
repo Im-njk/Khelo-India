@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sih.kheloindia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher1_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KheloIndia">
+        <activity
+            android:name=".purposal_Details"
+            android:exported="false" />
+        <activity
+            android:name=".add_andUser_act"
+            android:exported="true"></activity>
+        <activity
+            android:name=".add_purposal_act"
+            android:exported="false"></activity>
+        <activity
+            android:name=".addUser_act"
+            android:exported="false"></activity>
+        <activity
+            android:name=".mypannel_act"
+            android:exported="false"></activity>
+        <activity
+            android:name=".list_act"
+            android:exported="false" />
+        <activity
+            android:name=".purposals"
+            android:exported="false" />
+        <activity
+            android:name=".login_act"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

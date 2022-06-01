@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".login_act">
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="50dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.05"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/username_login"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/editbox_sh"
+                android:hint="example@mail.com"
+                android:inputType="textEmailSubject"
+                android:paddingHorizontal="10dp"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="Password"
+                android:letterSpacing="0.05"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/pass_login"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/editbox_sh"
+                android:inputType="textPassword"
+                android:paddingHorizontal="10dp"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Log in" />
+
+            <TextView
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="*Wrong ID or Password"
+                android:textColor="#FF0000"
+                android:visibility="invisible" />
+        </LinearLayout>0
+
+        <TextView
+            android:id="@+id/mypannel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="end"
+            android:text="My Pannel"
+            android:textColor="@color/orange"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
